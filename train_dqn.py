@@ -2,7 +2,7 @@ from utils.environment import NetworkEnv
 from dqn_agent import DQNAgent
 import matplotlib.pyplot as plt
 import numpy as np
-
+print("Starting DQN Training... Please wait...")
 env = NetworkEnv()
 agent = DQNAgent(state_size=3, action_size=2)
 
